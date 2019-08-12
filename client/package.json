@@ -1,0 +1,59 @@
+{
+  "name": "vue-vuetify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "core-js": "^2.6.5",
+    "dns": "^0.2.2",
+    "net": "^1.0.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vuejs-logger": "1.5.3",
+    "vuetify": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "deepmerge": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.1",
+    "sass": "^1.22.7",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "^0.6.1",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
